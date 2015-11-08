@@ -1,8 +1,8 @@
 Package.describe({
   name: 'fourquet:anti-gravity',
   version: '1.0.0',
-  summary: '',
-  git: '',
+  summary: 'Plugin for Constellation used to compare app packages with latest available from the Meteor package repository.',
+  git: 'https://github.com/fourquet/meteor-package-anti-gravity',
   documentation: 'README.md',
   debugOnly: true
 });
@@ -27,7 +27,6 @@ Package.onUse(function(api) {
     'http',
     'package-version-parser@3.0.4',
   ]);
-
   api.addFiles([
     'anti-gravity.html',
     'anti-gravity.js'
