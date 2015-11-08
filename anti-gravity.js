@@ -36,9 +36,15 @@ Template.Constellation_anti_gravity_menu.events({
           error: error,
         });
       } else {
-        mainContent.set({
-          packages: result,
-        });
+        if (result.length > 0) {
+          mainContent.set({
+            packages: result,
+          });
+        } else {
+          mainContent.set({
+            message: 'All Good!',
+          });
+        }
       }
     });
   },

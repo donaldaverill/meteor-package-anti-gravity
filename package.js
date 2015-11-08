@@ -1,6 +1,6 @@
 Package.describe({
   name: 'fourquet:anti-gravity',
-  version: '1.0.2',
+  version: '1.0.3',
   summary: 'Plugin for Constellation for finding out-of-date packages.',
   git: 'https://github.com/fourquet/meteor-package-anti-gravity',
   documentation: 'README.md',

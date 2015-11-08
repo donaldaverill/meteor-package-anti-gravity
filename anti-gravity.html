@@ -13,6 +13,8 @@
         App Version: {{package.currentAppVersion}}<br>
         Latest Version: {{package.latestMeteorVersion}}<br>
         Publish Date: {{package.publishDate}}<br><br>
+      {{else}}
+        {{mainContent.message}}
       {{/each}}
     {{else}}
       Checking...

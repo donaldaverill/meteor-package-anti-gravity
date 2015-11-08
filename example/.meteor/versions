@@ -27,7 +27,7 @@ ecmascript-runtime@0.2.6
 ejson@1.0.7
 fastclick@1.0.7
 fortawesome:fontawesome@4.2.0_2
-fourquet:anti-gravity@1.0.1
+fourquet:anti-gravity@1.0.3
 geojson-utils@1.0.4
 gwendall:session-json@0.1.7
 hot-code-push@1.0.0
