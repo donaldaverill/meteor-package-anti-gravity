@@ -26,7 +26,7 @@ Template.Constellation_anti_gravity_menu.helpers({
 });
 
 Template.Constellation_anti_gravity_menu.events({
-  'click button': function(evt, tmpl) {
+  'click': function(evt, tmpl) {
     mainContent.set({
       loading: true,
     });
