@@ -1,0 +1,23 @@
+<template name="Constellation_anti_gravity_header">
+</template>
+
+<template name="Constellation_anti_gravity_menu">
+  <div style="text-indent: 8px;"><button>Check Packages</button></div>
+</template>
+
+<template name="Constellation_anti_gravity_main">
+  {{#unless mainContent.error}}
+    {{#unless mainContent.loading}}
+      {{#each package in mainContent.packages}}
+        <strong><a href="https://atmospherejs.com/{{convertPackageName package.packageName}}" target="_blank">{{package.packageName}}</a></strong><br>
+        App Version: {{package.currentAppVersion}}<br>
+        Latest Verison: {{package.latestMeteorVersion}}<br>
+        Publish Date: {{package.publishDate}}<br><br>
+      {{/each}}
+    {{else}}
+      Checking...
+    {{/unless}}
+  {{else}}
+    Theres and error {{mainContent.error}}
+  {{/unless}}
+</template>
