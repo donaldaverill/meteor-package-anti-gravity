@@ -1,6 +1,6 @@
 Package.describe({
   name: 'fourquet:anti-gravity',
-  version: '1.0.3',
+  version: '1.0.4',
   summary: 'Plugin for Constellation for finding out-of-date packages.',
   git: 'https://github.com/fourquet/meteor-package-anti-gravity',
   documentation: 'README.md',
@@ -18,7 +18,7 @@ Package.onUse(function(api) {
       'tracker',
       'reactive-var',
       'reactive-dict',
-      'constellation:console@1.3.0',
+      'constellation:console@1.4.0',
     ],
     'client');
   api.imply('constellation:console');
