@@ -14,10 +14,8 @@ meteor add fourquet:anti-gravity
 
 ![anti-gravity](https://raw.githubusercontent.com/fourquet/meteor-package-anti-gravity/master/anti-gravity.gif)
 
-### Version
+#### Version
 1.0.4
 
-License
-----
-
+#### License
 MIT
