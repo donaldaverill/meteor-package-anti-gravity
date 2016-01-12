@@ -4,7 +4,8 @@ Package.describe({
   summary: 'Constellation plugin for finding out-of-date packages.',
   git: 'https://github.com/fourquet/meteor-package-anti-gravity',
   documentation: 'README.md',
-  debugOnly: true
+  debugOnly: true,
+  license: 'LICENSE',
 });
 
 Package.onUse(function(api) {
